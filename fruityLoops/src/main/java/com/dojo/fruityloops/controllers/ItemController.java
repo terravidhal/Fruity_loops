@@ -1,0 +1,36 @@
+package com.dojo.fruityloops.controllers;
+
+//add
+import org.springframework.stereotype.Controller;
+
+//add
+import org.springframework.ui.Model;
+
+//add
+import org.springframework.web.bind.annotation.RequestMapping;
+
+//import ArrayList
+import java.util.ArrayList;
+
+// import Item
+import com.dojo.fruityloops.models.Item;
+
+//add
+@Controller
+public class ItemController {
+	// home
+	@RequestMapping("/")
+	public String index(Model model) {
+		 ArrayList<Item> fruits = new ArrayList<Item>();
+	     fruits.add(new Item("Kiwi", 1.5));
+	     fruits.add(new Item("Mango", 2.0));
+	     fruits.add(new Item("Goji Berries", 4.0));
+	     fruits.add(new Item("Guava", .75));
+	        
+	     // Add fruits your view model here
+	     model.addAttribute("fruitsFromMyController", fruits);
+	        
+		 return "index.jsp";
+	}
+  
+}

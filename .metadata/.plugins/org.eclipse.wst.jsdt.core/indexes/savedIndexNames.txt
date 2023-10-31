@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\TERRA_F\MES FORMATIONS1 TRIER\CERTIFICATION CODING DOJO\CodingDojo\java\java_Spring\Fruity_loops\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4111802176.index
+482647000.index
+1432131962.index
+303942263.index
+1979133176.index
+2023101067.index
+451745131.index

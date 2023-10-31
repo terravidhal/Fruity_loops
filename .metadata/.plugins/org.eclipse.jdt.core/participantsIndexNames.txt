@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+D:\TERRA_F\MES FORMATIONS1 TRIER\CERTIFICATION CODING DOJO\CodingDojo\java\java_Spring\Fruity_loops\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1979133176.index
+\fruityLoops\src\main\java
